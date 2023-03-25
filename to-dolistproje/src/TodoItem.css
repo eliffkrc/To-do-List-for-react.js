@@ -1,0 +1,47 @@
+.todo-item-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todo-item-text {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.delete-icon {
+  color: rgb(243, 176, 176);
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.edit-icon {
+  color: rgb(153, 153, 204);
+  cursor: pointer;
+  margin-right: 12px;
+}
+
+.edit-item-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.edit-item-form input[type="text"] {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+.sakla{
+background-color: rgb(229, 253, 255);
+border-radius: 3px;
+margin-left: 4px;
+margin-right: 4px;
+
+}
+.bitir{
+  background-color: rgb(229, 253, 255);
+  border-radius: 3px;
+  margin-left: 4px;
+}

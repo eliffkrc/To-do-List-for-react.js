@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #76c8d3;
+}
+
+#root {
+  width: 250%;
+  max-width: 800px;
+  max-height: 2000px;
+  padding: 20px;
+  background-color: #adebf3;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+  margin-bottom: 50px;
+}

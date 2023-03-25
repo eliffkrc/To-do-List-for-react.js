@@ -1,0 +1,41 @@
+.todo-list-container {
+  max-width: 2000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.todo-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.todo-list-header button {
+  padding: 10px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.todo-list-empty {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 24px;
+}
+
+.todo-list {
+  list-style:armenian;
+  padding: 1px;
+
+}
+
+@media screen and (max-width: 768px) {
+  .todo-list-container {
+    padding: 10px;
+    color:rgb(35, 140, 201);
+  }
+
+}
